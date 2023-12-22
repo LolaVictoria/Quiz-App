@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "question": "Who co-founded Apple Inc. alongside Steve Jobs and Steve Wozniak?",
+      "options": ["Tim Cook", "Bill Gates", "Ronald Wayne", "Steve Ballmer"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which technology is often associated with the concept of “smart cities”?",
+      "options": ["Augmented Reality", "Internet of Things", "Edge Computing", "Autonomous Vehicles"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What does the acronym API stand for in programming?",
+      "options": ["Application Programming Interface", "Advanced Programming interface", "Automated Program Interface", "Algorithmic Protocol Interface"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What was the first high-level programming language developed?",
+      "options": ["COBOL", "Fortran", "Assembly Language", "BASIC"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which virtual reality headset is developed by Oculus, a subsidiary of Facebook?",
+      "options": [
+        "HTC Hive",
+        "Playstation VR",
+        "Octulus Rift",
+        "Microsoft HoloLens"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which component of a computer is often referred to as the ‘brain’ and performs most of the processing tasks?",
+      "options": ["RAM", "Hard Drive", "Microprocessor", "CPU"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "Which mobile operating system is developed by Google and based on Linux Kernel ?",
+      "options": [
+        "IOS",
+        "Android",
+        "Windows Phone",
+        "Blackberry OS"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Who is considered the father of World Wide Web?",
+      "options": [
+        "Tim Cook",
+        "Tim Berners-Lee",
+        "Steve Jobs",
+        "Mark Zuckerberg"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What design pattern is used to provide a simple interfaceto a set of interfaces in a subsystem, making subsystem easier to use",
+      "options": [
+        "Singleton",
+        "Observer",
+        "Facade",
+        "Decorator"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Which company developed the first graphical user interface(GUI) for personal computers?",
+      "options": [
+        "IBM",
+        "Microsoft",
+        "Apple",
+        "Google"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Which version control system is widely used in software development for tracking changes in source code?",
+      "options": [
+        "GIT",
+        "Mercurial",
+        "SVN",
+        "CVS"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "What is the purpose of a 'firewall' in the context of computer security ?",
+      "options": [
+        "Virus Protecton",
+        "Network Monitoring",
+        "Unauthorized access prevention",
+        "Data encryption"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which organization played a role in the development of the internet’s predecessor, ARPANET ?",
+      "options": ["IBM", "DARPA", "Xerox", "Bell Labs"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which Microsoft AI technology, released in 2020, became known for generating human-like text?",
+      "options": [
+        "Cortana",
+        "Azure AI",
+        "Power BI",
+        "GPT-3"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "Which markup language is used for structuring conntent on the web and stands for Hyper Text Markup?",
+      "options": [
+        "XML",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "correctOption": 1,
+      "points": 20
+    }
+  ]
+}
