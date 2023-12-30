@@ -4,13 +4,14 @@ import NextButton from "../components/nextbutton"
 import Progress from "../components/progress"
 import Timer from "../components/timer"
 import PropTypes from 'prop-types';
+import styles from "./readypage.module.css"
 
 
 
 const ReadyPage = ({index, numQuestions, points, maxPossiblePoints, answer, questions, dispatch, secondsRemaining}) => {
 
     return (
-        <>
+        <div className={styles.ready}>
                 <Progress 
                    index={index} 
                    numQuestions={numQuestions}
@@ -31,7 +32,7 @@ const ReadyPage = ({index, numQuestions, points, maxPossiblePoints, answer, ques
                       index={index}
                       numQuestions={numQuestions} />
                     </Footer>
-               </>
+               </div>
     )
 }
 export default ReadyPage
@@ -42,7 +43,7 @@ ReadyPage.propTypes = {
   numQuestions: PropTypes.number.isRequired,
   points: PropTypes.number.isRequired,
   maxPossiblePoints: PropTypes.number.isRequired,
-  answer: PropTypes.any.isRequired, // Adjust the type according to your data
+  answer: PropTypes?.any.isRequired, // Adjust the type according to your data
   questions: PropTypes.array.isRequired, // Adjust the type according to your data
   dispatch: PropTypes.func.isRequired,
   secondsRemaining: PropTypes.number.isRequired,

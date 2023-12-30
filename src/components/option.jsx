@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import styles from "./option.module.css"
 
 const Options = ({question, dispatch, answer}) => {
     const hasAnswered = answer !== null
     return (
-            <div className="options">
+            <div className={styles.options}>
             {question.options.map((option, index) =>
                     <button 
                        className={`

@@ -1,12 +1,20 @@
+.finish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 40px;
+}
 .result {
     background-color: var(--color-theme);
     color: var(--color-light);
-    border-radius: 100px;
+    border-radius: 10px;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 1.6rem;
+    width: auto;
+    
   }
   
   .result span {

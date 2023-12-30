@@ -23,23 +23,25 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  color: var(--color-light);
-  background-color: var(--color-darkest);
+  color: var(--color-darkest);
+  background-color: var(--color-light);
   padding: 3.2rem;
+  overflow: hidden;
+
+  @media(max-width: 450px) {
+    padding: .1rem;
+    
+  }
 }
 
 .app {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+ 
 }
 
-
-img {
-  width: 14rem;
-}
 
 h1 {
   font-family: "Codystar";
@@ -49,6 +51,10 @@ h1 {
 h2 {
   font-size: 3.6rem;
   margin-bottom: 2rem;
+
+  @media(max-width: 450px) {
+    font-size: 3rem;
+  }
 }
 
 h3 {
@@ -80,9 +86,7 @@ h4 {
   background-color: var(--color-darkest);
 }
 
-.btn-option:not([disabled]):hover {
-  transform: translateX(1.2rem);
-}
+
 
 .btn[disabled]:hover {
   cursor: not-allowed;
@@ -92,16 +96,15 @@ h4 {
   float: right;
 }
 
-.options {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  margin-bottom: 3.2rem;
-}
+/*Option Button styling*/
 
 .btn-option {
   width: 100%;
-  text-align: left;
+  text-align: left;  
+}
+
+.btn-option:not([disabled]):hover {
+  transform: translateX(1.2rem);
 }
 
 .btn-option.correct {
@@ -118,6 +121,10 @@ h4 {
 .answer {
   transform: translateX(2rem);
 }
+
+ 
+
+
 
 
 

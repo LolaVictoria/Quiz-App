@@ -7,6 +7,7 @@ import StartScreen from "./pages/StartScreen";
 import ReadyPage from "./pages/readypage";
 import FinishScreen from "./pages/finishscreen"
 
+
  const SEC_PER_QUESTION = 20
 
 const initialState = {
@@ -108,6 +109,7 @@ const App = () => {
     
     }, [])
     return (
+        
         <div className="app">
             <Header/>
 
@@ -140,6 +142,7 @@ const App = () => {
 
             </Content>
         </div>
+        
     );
 }
  
